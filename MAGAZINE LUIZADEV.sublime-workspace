@@ -1,0 +1,1776 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newMap"
+			],
+			[
+				"Reco",
+				"RecordType"
+			],
+			[
+				"Record",
+				"RecordTypeId"
+			],
+			[
+				"SO",
+				"SObjectType"
+			],
+			[
+				"old",
+				"oldMap"
+			],
+			[
+				"is",
+				"isInsert"
+			],
+			[
+				"seri",
+				"PUBLIC serializePretty(Object o) \tString"
+			],
+			[
+				"ser",
+				"PUBLIC serializePretty(Object o) \tString"
+			],
+			[
+				"Case",
+				"CaseBO"
+			],
+			[
+				"isU",
+				"isUpdate"
+			],
+			[
+				"get",
+				"PUBLIC get(ANY key) \tString"
+			],
+			[
+				"equa",
+				"equalsIgnoreCase"
+			],
+			[
+				"put",
+				"PUBLIC put(ANY key, ANY value) \tString"
+			],
+			[
+				"au",
+				"authorType"
+			],
+			[
+				"Rec",
+				"getRecordTypeId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/triggers/CaseComment.trigger",
+			"settings":
+			{
+				"buffer_size": 531,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CaseCommentBO.cls",
+			"settings":
+			{
+				"buffer_size": 5005,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/SetUtils.cls",
+			"settings":
+			{
+				"buffer_size": 371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CaseCommentDAO.cls",
+			"settings":
+			{
+				"buffer_size": 2156,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/triggers/trgCase.trigger",
+			"settings":
+			{
+				"buffer_size": 1011,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CaseBO.cls",
+			"settings":
+			{
+				"buffer_size": 17830,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CustomMetadataDAO.cls",
+			"settings":
+			{
+				"buffer_size": 1515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CaseMilestoneDAO.cls",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CaseDAO.cls",
+			"settings":
+			{
+				"buffer_size": 5125,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/triggers/Queue.trigger",
+			"settings":
+			{
+				"buffer_size": 241,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/QueueBO.cls",
+			"settings":
+			{
+				"buffer_size": 3390,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CaseResolutionDAO.cls",
+			"settings":
+			{
+				"buffer_size": 1074,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/MktPlace_CaseOutboundIntegrationBO.cls",
+			"settings":
+			{
+				"buffer_size": 5283,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/MktPlace_RestCaseIntegration.cls",
+			"settings":
+			{
+				"buffer_size": 5369,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/MktPlace_RestCaseIntegrationTest.cls",
+			"settings":
+			{
+				"buffer_size": 22740,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/MktPlace_CaseIntegrationBO.cls",
+			"settings":
+			{
+				"buffer_size": 6406,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/MktPlace_CaseIntegrationBOTest.cls",
+			"settings":
+			{
+				"buffer_size": 1240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/QueueDAO.cls",
+			"settings":
+			{
+				"buffer_size": 1320,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/AccountDAO.cls",
+			"settings":
+			{
+				"buffer_size": 1092,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/ActivitiyDAO.cls",
+			"settings":
+			{
+				"buffer_size": 870,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/CaseConfigurationDAO.cls",
+			"settings":
+			{
+				"buffer_size": 1114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/Util.cls",
+			"settings":
+			{
+				"buffer_size": 6750,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/Utils.cls",
+			"settings":
+			{
+				"buffer_size": 36433,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/QueueEventNames.cls",
+			"settings":
+			{
+				"buffer_size": 375,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/MktPlace_GibaIntegrationService.cls",
+			"settings":
+			{
+				"buffer_size": 1129,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/MktPlace_CaseInboundIntegrationBO.cls",
+			"settings":
+			{
+				"buffer_size": 4487,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/MktPlace_AccountInboundIntegrationBO.cls",
+			"settings":
+			{
+				"buffer_size": 8141,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src"
+	],
+	"file_history":
+	[
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseCommentBOTest.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseCommentDAOTest.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseBuild.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/AccountBuild.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/SetUtilsTest.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseMilestoneDAOTest.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CustomMetadataDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseMilestoneDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CustomMetadataDAOTest.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_RestCaseIntegrationTest.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/Utils.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/SetUtils.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/triggers/trgConta.trigger",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/Util.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/SObjectDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_GibaIntegrationServiceTest.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/AccountDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseResolutionDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/ActivitiyDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseConfigurationDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/clsTestCase.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/UtilsTest.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/clsMetodosUteis.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/ProcessControl.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseCommentDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/Utilities.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/triggers/Case2.trigger",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/EmailMessageBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_CaseInboundIntegrationBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/triggers/CaseComment.trigger",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseCommentBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/testSendEmailFlowPlugin.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/SendEmail.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_AccountInboundIntegrationBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/clsPesquisaCliente.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_ProductInboundIntegrationBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_ContactInboundIntegrationBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_InstanceToClassCoverage.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MilestoneUtils.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_GibaIntegrationService.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/triggers/trgContato.trigger",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/triggers/trgCase.trigger",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/CaseBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/triggers/Queue.trigger",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/QueueEventNames.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_CaseOutboundIntegrationBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/QueueDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_RestCaseIntegration.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/MktPlace_CaseIntegrationBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/IProcessingQueue.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/MAGAZINE LUIZADEV/src/classes/QueueBO.cls",
+		"/C/Users/danid/Dropbox/Sublime/Em uso/Git commands",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/ContactBOTest.cls",
+		"/C/Users/danid/Dropbox/Sublime/Em uso/Contas",
+		"/C/Users/danid/Dropbox/NN/a",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/Leads_FluxoEntradaLead.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/SetUtils.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/AccountDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/ContactBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/triggers/triggerContact.trigger",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/pages/Login.page",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/Utils.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/AccountBO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/triggers/triggerAccount.trigger",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/LoginController.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/pages/RedirecionarHome.page",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/SObjectDAO.cls",
+		"/C/Users/danid/OneDrive/Documentos/Workspace/FIAT MIGRAFCA/src/classes/Util.cls",
+		"/C/Users/danid/Dropbox/Sublime/Em uso/BACK UP CALLOUT",
+		"/C/Users/danid/Dropbox/Sublime/Em uso/Back up Comerc",
+		"/C/Users/danid/Documents/Workspace/RENAULT BUGFIX2"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getCaseByIntegrationId",
+			"doGet",
+			"getCaseCommentsMapByCaseId",
+			"}\n",
+			"TempoRestanteSLA__c",
+			"newCase",
+			"isCaseMarketplace",
+			"createQueue",
+			"getRecordTypeId",
+			"updateQueue",
+			"createQueue",
+			"casedao",
+			"RecordType",
+			"isCaseMarketplace",
+			"RecordType",
+			"recordtype",
+			"'Magazine Luiza'.equalsIgnoreCase(cc.TipoAutor__c)",
+			"'Lojista'.equalsIgnoreCase(cc.TipoAutor__c)",
+			"'Cliente'.equalsIgnoreCase(cc.TipoAutor__c)",
+			"updateQueue",
+			"createQueue",
+			"oldCase",
+			"newCase",
+			"oldCase",
+			"newCase",
+			"milestonesUpdateList",
+			"getCaseByIntegrationId",
+			"IsViolated",
+			"getCaseByIntegrationId",
+			"getIsoDatetime",
+			"CaseResolution__c",
+			"CR",
+			"data_de_inicio__c",
+			"area_solucionadora__c",
+			"status",
+			"objCaso",
+			"caseOld.OwnerId != caseNew.OwnerId",
+			"ARfila[0].name",
+			"OwnerId",
+			"adminProfileId",
+			"ARfila",
+			"objCaseOld",
+			"objCaso",
+			"system",
+			"isMarketplace",
+			"TempoRestanteSLA__c",
+			"teste",
+			"test_PostPF",
+			"getCaseStatus",
+			"getTriggerActiveMapByName",
+			"getCaseCommentCaseIdSet",
+			"executeQueue",
+			"getJsonOpen",
+			"objCaso.RecordtypeID",
+			"utils",
+			"GenericRestResponse",
+			"RestResponseJson",
+			"jsonResponse",
+			"caseComment",
+			"status",
+			"MktPlaceBandeirinha__c",
+			"ResponseDoPut",
+			"RestResponse",
+			"jsonResponse",
+			"JSONGenerator",
+			"jsonResponse",
+			"caseStatus",
+			"jsonResponse",
+			"updateData",
+			"getAuthorType",
+			"sendEmail",
+			"getJsonComment",
+			"getJsonClose",
+			"gerenciadorMarcosMap",
+			"GerenciadorMarcos__mdt",
+			"completeMilestone",
+			"ProcessControl",
+			"validaCnpj",
+			"AtivacaoApex__c",
+			"limparFormatacaoCpfCnpj",
+			"isCnpjValid",
+			"authorType",
+			"MagazineDateMediation__c",
+			"MktPlaceBandeirinha__c",
+			"caseStatus",
+			",",
+			"getCaseStatus",
+			"synStatus",
+			"getCaseByIntegrationId",
+			"future",
+			"SUCCESS",
+			"ERROR",
+			"@RestResource",
+			"rest",
+			"executeQueue",
+			"MktPlace_CaseInboundIntegrationBO.caseComment",
+			"caseComment",
+			"idseller",
+			"setHeader",
+			"setBody",
+			"MKTPLACE_CASE_COMMENT_SALESFORCE_TO_GIBA",
+			"MktPlace_CaseIntegrationBO",
+			"MktPlace_CaseInboundIntegrationBO",
+			"executeQueue",
+			"MktPlace_CaseIntegrationBO.executeQueue",
+			"executeQueue",
+			"caseClose",
+			"git",
+			"veícul",
+			"locale",
+			"select",
+			"fiat--c.na42.content.force.com",
+			"Import Wizard",
+			"?",
+			"<!--Optional:-->",
+			",",
+			"SELECT DistribuirLeadsAutomaticamente__c, Name, RazaoSocial__c, NomeReduzido__c, InscricaoEstadual__c, Codigo__c, Cnpj__c, Industry, CategoriaConcessionaria__c, Regiao__c, RegiaoVendas__c, Status__c, Type, Website, Phone, Fax, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, Complemento__c, Bairro__c, Country__c, CodigoMatriz__c, CodMatrizRedeAtiva__c, DealerBrands__c FROM Account WHERE Id in ('001j000000KQbUA', '001j000000gFMIO', '001j000000KQb0A', '001j000000KQauf', '001j000000L3ASS')",
+			"CodigoProduto__c",
+			"validarCodigoConcessionariaRecebido",
+			"CodigoConcessionaria__c",
+			"accountDealerCodeIdSet",
+			"ccountDealerCodeIdSet",
+			"= 'Concessionaria'",
+			"Utils.getRecordTypeId('Account', 'Concessionaria",
+			"mapRecordType",
+			"RecordTypeId",
+			"-",
+			","
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"isMagazine",
+			"isSeller",
+			"isCustomer",
+			"caseOld",
+			"caseNew",
+			"caseOld",
+			"caseNew",
+			"getISODatetime",
+			"Task",
+			"Data_de_Inicio__c",
+			"Area_solucionadora__c",
+			"Status",
+			"caseNew",
+			"changedOwner",
+			"caseQueue.Name",
+			"OwnerId",
+			"caseOld",
+			"caseNew",
+			"System",
+			"RestResponse",
+			"DoPutPostResponse",
+			"RestResponseJson",
+			"milestoneManagerMap",
+			"MilestoneManager__mdt",
+			"ticketStatus",
+			"                 ",
+			"fiat.my.salesforce.com",
+			"@",
+			"",
+			"\n",
+			"=",
+			"\n",
+			"\\n",
+			"",
+			"greenLink",
+			"yellowLink",
+			"redLink",
+			"                   ",
+			"+",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/triggers/CaseComment.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/classes/CaseCommentBO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/classes/SetUtils.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/classes/CaseCommentDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/triggers/trgCase.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								421
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/classes/CaseBO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12008,
+								12008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 403.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/classes/CustomMetadataDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/classes/CaseMilestoneDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								914,
+								914
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/classes/CaseDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2637,
+								2637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/triggers/Queue.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/classes/QueueBO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2001,
+								2001
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 623.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/classes/CaseResolutionDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/classes/MktPlace_CaseOutboundIntegrationBO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4227,
+								4227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/classes/MktPlace_RestCaseIntegration.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								901,
+								901
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/classes/MktPlace_RestCaseIntegrationTest.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/classes/MktPlace_CaseIntegrationBO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1583,
+								1583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/classes/MktPlace_CaseIntegrationBOTest.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/classes/QueueDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								432,
+								432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "src/classes/AccountDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								779
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src/classes/ActivitiyDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "src/classes/CaseConfigurationDAO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1110,
+								1110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "src/classes/Util.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6707,
+								6707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2805.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "src/classes/Utils.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "src/classes/QueueEventNames.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "src/classes/MktPlace_GibaIntegrationService.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "src/classes/MktPlace_CaseInboundIntegrationBO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3736,
+								3736
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "src/classes/MktPlace_AccountInboundIntegrationBO.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6279,
+								6279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1295.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 130.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "MAGAZINE LUIZADEV.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"commentdao",
+				"src\\classes\\CaseCommentDAO.cls"
+			],
+			[
+				"setutils",
+				"src\\classes\\SetUtils.cls"
+			],
+			[
+				"utils",
+				"src\\classes\\Utils.cls"
+			],
+			[
+				"util",
+				"src\\classes\\Util.cls"
+			],
+			[
+				"casemilestonedao",
+				"src\\classes\\CaseMilestoneDAO.cls"
+			],
+			[
+				"custommetadatadao",
+				"src\\classes\\CustomMetadataDAO.cls"
+			],
+			[
+				"casecommentdao",
+				"src\\classes\\CaseCommentDAO.cls"
+			],
+			[
+				"casedao",
+				"src\\classes\\CaseDAO.cls"
+			],
+			[
+				"accountdao",
+				"src\\classes\\AccountDAO.cls"
+			],
+			[
+				"caseconfigurationdao",
+				"src\\classes\\CaseConfigurationDAO.cls"
+			],
+			[
+				"activitiydao",
+				"src\\classes\\ActivitiyDAO.cls"
+			],
+			[
+				"caseresolutiondao",
+				"src\\classes\\CaseResolutionDAO.cls"
+			],
+			[
+				"queuebo",
+				"src\\classes\\QueueBO.cls"
+			],
+			[
+				"casebo",
+				"src\\classes\\CaseBO.cls"
+			],
+			[
+				"casecommentbo",
+				"src\\classes\\CaseCommentBO.cls"
+			],
+			[
+				"mktplace_caseintegrationbo",
+				"src\\classes\\MktPlace_CaseIntegrationBO.cls"
+			],
+			[
+				"mktplace_caseinboundintegrationbo",
+				"src\\classes\\MktPlace_CaseInboundIntegrationBO.cls"
+			],
+			[
+				"mktplace_restcaseintegration",
+				"src\\classes\\MktPlace_RestCaseIntegration.cls"
+			],
+			[
+				"casebuild",
+				"src\\classes\\CaseBuild.cls"
+			],
+			[
+				"casebotest",
+				"src\\classes\\CaseCommentBOTest.cls"
+			],
+			[
+				"casecommentbotest",
+				"src\\classes\\CaseCommentBOTest.cls"
+			],
+			[
+				"caseintegrationbo",
+				"src\\classes\\MktPlace_CaseIntegrationBO.cls"
+			],
+			[
+				"casemilestonedaotest",
+				"src\\classes\\CaseMilestoneDAOTest.cls"
+			],
+			[
+				"custommetadatadaotest",
+				"src\\classes\\CustomMetadataDAOTest.cls"
+			],
+			[
+				"mktplace_restcaseintegrationtest",
+				"src\\classes\\MktPlace_RestCaseIntegrationTest.cls"
+			],
+			[
+				"accounbui",
+				"src\\classes\\AccountBuild.cls"
+			],
+			[
+				"commentbotest",
+				"src\\classes\\CaseCommentBOTest.cls"
+			],
+			[
+				"restcas",
+				"src\\classes\\MktPlace_RestCaseIntegration.cls"
+			],
+			[
+				"activi",
+				"src\\classes\\ActivitiyDAO.cls"
+			],
+			[
+				"setutil",
+				"src\\classes\\SetUtils.cls"
+			],
+			[
+				"casecomme",
+				"src\\classes\\CaseCommentDAO.cls"
+			],
+			[
+				"casemile",
+				"src\\classes\\CaseMilestoneDAO.cls"
+			],
+			[
+				"clstestcase",
+				"src\\classes\\clsTestCase.cls"
+			],
+			[
+				"trgcase",
+				"src\\triggers\\trgCase.trigger"
+			],
+			[
+				"mktplace_caseoutboundintegrationbo",
+				"src\\classes\\MktPlace_CaseOutboundIntegrationBO.cls"
+			],
+			[
+				"clstest",
+				"src\\classes\\clsTestCase.cls"
+			],
+			[
+				"trgcon",
+				"src\\triggers\\trgConta.trigger"
+			],
+			[
+				"utiliti",
+				"src\\classes\\Utilities.cls"
+			],
+			[
+				"ase2",
+				"src\\triggers\\Case2.trigger"
+			],
+			[
+				"queuere",
+				"src\\triggers\\Queue.trigger"
+			],
+			[
+				"trgcas",
+				"src\\triggers\\trgCase.trigger"
+			],
+			[
+				"accounda",
+				"src\\classes\\AccountDAO.cls"
+			],
+			[
+				"caseda",
+				"src\\classes\\CaseDAO.cls"
+			],
+			[
+				"casecom",
+				"src\\triggers\\CaseComment.trigger"
+			],
+			[
+				"comment",
+				"src\\triggers\\CaseComment.trigger"
+			],
+			[
+				"accountda",
+				"src\\classes\\AccountDAO.cls"
+			],
+			[
+				"trgcont",
+				"src\\triggers\\trgConta.trigger"
+			],
+			[
+				"clsmeto",
+				"src\\classes\\clsMetodosUteis.cls"
+			],
+			[
+				"",
+				"src\\classes\\MktPlace_CaseOutboundIntegrationBO.cls"
+			],
+			[
+				"casetrigger",
+				"src\\triggers\\trgCase.trigger"
+			],
+			[
+				"trgconta",
+				"src\\triggers\\trgConta.trigger"
+			],
+			[
+				"casetri",
+				"src\\triggers\\Case2.trigger"
+			],
+			[
+				"contactout",
+				"src\\classes\\MktPlace_ContactInboundIntegrationBO.cls"
+			],
+			[
+				"mktplace_contactinboundintegrationbo",
+				"src\\classes\\MktPlace_ContactInboundIntegrationBO.cls"
+			],
+			[
+				"mktplace_accountinboundintegrationbo",
+				"src\\classes\\MktPlace_AccountInboundIntegrationBO.cls"
+			],
+			[
+				"iprocessingqueue",
+				"src\\classes\\IProcessingQueue.cls"
+			],
+			[
+				"queu",
+				"src\\triggers\\Queue.trigger"
+			],
+			[
+				"case",
+				"src\\triggers\\Case2.trigger"
+			],
+			[
+				"leads_fluxoentradalead",
+				"src\\classes\\Leads_FluxoEntradaLead.cls"
+			],
+			[
+				"triggerlead",
+				"src\\triggers\\triggerLead.trigger"
+			],
+			[
+				"redirecio",
+				"src\\pages\\RedirecionarHome.page"
+			],
+			[
+				"login",
+				"src\\classes\\LoginController.cls"
+			],
+			[
+				"redirecionarhome",
+				"src\\pages\\RedirecionarHome.page"
+			],
+			[
+				"contacttrigge",
+				"src\\triggers\\triggerContact.trigger"
+			],
+			[
+				"contact",
+				"src\\classes\\ContactBO.cls"
+			],
+			[
+				"accounttr",
+				"src\\triggers\\triggerAccount.trigger"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

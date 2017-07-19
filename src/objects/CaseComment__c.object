@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Autor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Autor</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>ComentariosCaso</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CancelamentoMagazine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cancelamento de pedido - Magazine</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Caso__c</fullName>
+        <externalId>false</externalId>
+        <label>Caso</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipName>ComentariosCaso</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>ComentarioPrivadoFlag__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((  Private__c =True), IMAGE ( &quot;/img/samples/flag_yellow.gif&quot;,&quot;Yellow&quot;),null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Comentário Privado</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comentario__c</fullName>
+        <externalId>false</externalId>
+        <label>Comentário</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EmailNotificacao__c</fullName>
+        <description>Campo utilizado para receber o e-mail do destinatário da notificação, podendo ser Customer ou Seller, o que será definido em outro workflow que validará qual o tipo de registro que criou o comentário.</description>
+        <externalId>false</externalId>
+        <label>Email de notificação</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MagazineMediation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Precisa da mediação do Magazine?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Private__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>É uma mensagem para o logista?</description>
+        <externalId>false</externalId>
+        <label>Mensagem para o logista</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TipoAutor__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Autor</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Lojista</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cliente</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Magazine Luiza</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Comentário do Caso</label>
+    <nameField>
+        <label>ID-Comentario</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Comentários do Caso</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <webLinks>
+        <fullName>Cancelamento_de_pedido_Magazine_Luiza</fullName>
+        <availability>online</availability>
+        <description>Botão para a magazine intervir no caso e cancelar o pedido.</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Cancelamento de pedido - Magazine Luiza</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/28.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/support/console/28.0/integration.js&quot;)} 
+var confirmResult = confirm(&apos;O status do caso será alterado para &quot;Devolução autorizada - aguardando envio&quot;. E o comentário criado será enviado ao cliente. Deseja continuar?&apos;);
+if(confirmResult){
+	if ( sforce.console.isInConsole() ) {			
+		var openSubtab = function openSubtab(result) {
+			var primaryTabId = result.id;
+			sforce.console.openSubtab(primaryTabId , &quot;/a0A/e?CF00N21000000Ombt={!Case.CaseNumber }&quot;+
+				&quot;&amp;CF00N21000000Ombt_lkid={!Case.Id}&amp;Name={!Case.ProtocoloAtendimento__c}	&amp;00N21000000MeBs=0&amp;00N21000000MmOn=1&amp;retURL=%2F{!Case.Id}&quot;, openSuccess, &quot;Cancelamento de pedido - Magazine Luiza&quot;);														
+			};
+
+			var openSuccess = function openSuccess(result) {
+				sforce.console.focusSubtabById(result.id, null);	
+			};
+
+			sforce.console.getEnclosingPrimaryTabId(openSubtab);
+
+		} else { 
+			window.open(&quot;/a0A/e?CF00N21000000Ombt={!Case.CaseNumber }&quot;+
+				&quot;&amp;CF00N21000000Ombt_lkid={!Case.Id}&amp;Name={!Case.ProtocoloAtendimento__c}	&amp;00N21000000MeBs=0&amp;00N21000000MmOn=1&amp;retURL=%2F{!Case.Id}&quot;, &quot;width=600, height=300, resize=true&quot;);
+		}
+	}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>NovoComentarioParaCliente</fullName>
+        <availability>online</availability>
+        <description>Envia um novo comentário para o cliente</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Novo comentário para o cliente</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/28.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/support/console/28.0/integration.js&quot;)} 
+var confirmResult = confirm(&apos;O comentário criado será enviado ao cliente. Deseja continuar?&apos;); 
+if(confirmResult){ 
+if ( sforce.console.isInConsole() ) { 
+var openSubtab = function openSubtab(result) { 
+var primaryTabId = result.id; 
+sforce.console.openSubtab(primaryTabId , &quot;/a09/e?CF00Nj000000BUTqE={!Case.CaseNumber }&quot;+ 
+&quot;&amp;CF00Nj000000BUTqE_lkid={!Case.Id}&amp;00Nj000000BUTqi=0&amp;retURL=%2F{!Case.Id}&amp;Name={!Case.ProtocoloAtendimento__c} &quot;, openSuccess, &quot;Novo Comentário para o Cliente&quot;); 
+}; 
+
+var openSuccess = function openSuccess(result) { 
+sforce.console.focusSubtabById(result.id, null); 
+}; 
+
+sforce.console.getEnclosingPrimaryTabId(openSubtab); 
+
+} else { 
+window.open(&quot;/a09/e?CF00Nj000000BUTqE={!Case.CaseNumber }&quot;+ 
+&quot;&amp;CF00Nj000000BUTqE_lkid={!Case.Id}&amp;00Nj000000BUTqi=0&amp;retURL=%2F{!Case.Id}&amp;Name={!Case.ProtocoloAtendimento__c} &quot;, &quot;width=600, height=300, resize=true&quot;); 
+} 
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>NovoComentarioParaLojista</fullName>
+        <availability>online</availability>
+        <description>Envia um novo comentário para o lojista.</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Novo comentário para o lojista</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/28.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/support/console/28.0/integration.js&quot;)} 
+var confirmResult = confirm(&apos;O comentário criado será enviado ao lojista. Deseja continuar?&apos;); 
+if(confirmResult){ 
+if ( sforce.console.isInConsole() ) { 
+var openSubtab = function openSubtab(result) { 
+var primaryTabId = result.id; 
+sforce.console.openSubtab(primaryTabId , &quot;/a09/e?CF00Nj000000BUTqE={!Case.CaseNumber }&quot;+ 
+&quot;&amp;CF00Nj000000BUTqE_lkid={!Case.Id}&amp;00Nj000000BUTqi=1&amp;retURL=%2F{!Case.Id}&amp;Name={!Case.ProtocoloAtendimento__c} &quot;, openSuccess, &quot;Novo Comentário para o Lojista&quot;); 
+}; 
+
+var openSuccess = function openSuccess(result) { 
+sforce.console.focusSubtabById(result.id, null); 
+}; 
+
+sforce.console.getEnclosingPrimaryTabId(openSubtab); 
+
+} else { 
+window.open(&quot;/a09/e?CF00Nj000000BUTqE={!Case.CaseNumber }&quot;+ 
+&quot;&amp;CF00Nj000000BUTqE_lkid={!Case.Id}&amp;00Nj000000BUTqi=1&amp;retURL=%2F{!Case.Id}&amp;Name={!Case.ProtocoloAtendimento__c} &quot;, &quot;width=600, height=300, resize=true&quot;); 
+} 
+}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FeedItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>GiverId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Message</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>An_lise_de_fraude_Samsung_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Análise de fraude Samsung</label>
+        <queue>An_lise_de_fraude_Samsung</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Atendimento_Samsung_Ativo_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Atendimento Samsung Ativo</label>
+        <queue>Atendimento_Samsung_Ativo</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Atendimento_Samsung_Suporte_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Atendimento Samsung Suporte</label>
+        <queue>Atendimento_Samsung_Suporte</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Atendimento_Samsung_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Atendimento Samsung</label>
+        <queue>Atendimento_Samsung</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CD350_Samsung_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CD350 Samsung</label>
+        <queue>CD350_Samsung</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Financeiro_Contas_a_Receber_Samsung_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Financeiro – Contas a Receber Samsung</label>
+        <queue>Financeiro_Contas_a_Receber_Samsung</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Processamento_Refaturamento_Samsung_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Processamento Refaturamento Samsung</label>
+        <queue>Processamento_Refaturamento_Samsung</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Processamento_Samsung_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Processamento Samsung</label>
+        <queue>Processamento_Samsung</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Suporte_Comercial_Samsung_WorkThanks</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Suporte Comercial Samsung</label>
+        <queue>Suporte_Comercial_Samsung</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <sharingModel>Read</sharingModel>
+</CustomObject>

@@ -1,0 +1,16 @@
+<apex:page showHeader="false" sidebar="false" controller="EmailsNaoLidosController" action="{!execute}">
+
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageMessage summary="Emails não lidos atualizados com sucesso!" severity="confirm" strength="3" />
+            <script>
+        function closeWindow() {
+            alert(1);
+            window.self.close();
+        }
+        window.self.close();
+    </script>
+        </apex:pageBlock>   
+    </apex:form>
+    
+</apex:page>

@@ -1,0 +1,166 @@
+<apex:page showheader="true" extensions="clsPesquisaCliente" standardController="Case" tabStyle="Case">
+   <!--Bibliotecas Jquery-->
+    <apex:includeScript value="{!URLFOR($Resource.jQuery, 'jquery-1.8.2.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.JqueryUI, '/ui/jquery-ui.js')}" />
+    <!--Bibliotecas PrimeUI-->
+    <apex:includeScript value="{!URLFOR($Resource.PrimeUI, '/development/primeui-1.1.js')}" />
+    <!---------------------->
+    <!--CSS do PrimeUI-->
+    <apex:stylesheet value="{!URLFOR($Resource.PrimeUI, '/development/primeui-1.1.css')}" />
+    <!--CSS do JqueryUI-->
+    <apex:stylesheet value="{!URLFOR($Resource.JqueryUI, '/themes/base/jquery-ui.css')}" />
+    <!---------------------->
+    <apex:stylesheet value="{!URLFOR($Resource.PrimeUI, '/themes/smoothness/theme.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.PrimeUI, '/development/css/accordion/accordion.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.PrimeUI, '/development/css/growl/growl.css')}" />
+    <!---------------------->
+    <script type="text/javascript">
+    
+    var sinc="{!cli.CodRetorno}";
+    var Tipo='info';
+    if (sinc != '0' && sinc !='' ){
+        Tipo='error';
+    }
+    if(sinc!=''){
+        $(document).ready(function () { 
+            $('#informacao').puigrowl({initialize:90000,sticky:true});
+            $('#informacao').puigrowl('show', [{severity: Tipo, summary: 'Chamada do Serviço de Integração', detail: '{!cli.Mensagem}'}]);
+        });
+    }
+
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function () { $('body').hide().fadeIn(1500).delay(6000)});
+    </script>
+    
+    <script type="text/javascript">
+    $(document).ready(function () { 
+        if($('loading').css('display')=='block'){
+            $('loading').css('display','none');
+            $('Principal').css('display','block');  
+        }
+    });
+    </script>
+    <style>
+        .ui-growl {
+        right: 20px;
+        top: 10%;
+        }
+    </style>
+    <apex:form id="frmPost" onsubmit="valida()">
+        <div id="informacao"/>
+        <div id="loading" style="display:none">
+            <p align="center"
+               style='font-family: "Arial", Helvetica, sans-serif; font-size: 20px;'>
+                <apex:image value="/img/loading.gif" />
+                &nbsp;Please wait
+            </p>
+        </div>
+        <div id="Principal" style="display:block">
+            <apex:actionFunction name="updateNivel_2" action="{!updateNivel_2}"/>  
+            <apex:pageblock id="pbPesquisa">
+                <!--<apex:outputtext id="txtMensagem" value="{!MsgError}" style="color:red"/>-->
+                <br/>
+                <apex:pageblocksection title="Pesquisa de Cliente" columns="2" id="pbsCaso">
+                    Chave de pesquisa:
+                    <apex:selectlist id="tpChave"
+                                     required="false" value="{!tpChave}" size="1" title="Tipo Chave" onchange="document.getElementById('{!$Component.frmPost.txtValor}').value=''">
+                        <apex:selectoptions value="{!TipoChave}"></apex:selectoptions>
+                    </apex:selectlist>
+                    Valor para consulta:
+                    <apex:inputtext id="txtValor" value="{!Chave}" required="false" size="40" disabled="false" />
+                </apex:pageblocksection>
+            </apex:pageblock>
+            <br/>
+            <apex:commandbutton action="{!PesquisarCliente}"
+                                id="btnPesquisar" value="Pesquisar" rendered="{!if(MostrarBotaoPesq>0,true,false)}" />
+            <br/>
+            <br/>
+            <apex:pageBlock title="Dados do Cliente" rendered="{!if(MostrarCliente>0,true,false)}">
+                <apex:pageBlockTable value="{!cli}"
+                                     var="child" id="ListaCliente" >
+                    <apex:column headervalue="Nome" value="{!child.nome}" rendered="{!if(child.nome!=null, true, false)}" />
+                    <apex:column headervalue="CPF" value="{!child.CPF}" rendered="{!if(child.CPF!=null, true, false)}"/>
+                    <apex:column headervalue="Razão Social" value="{!child.empresaTrab.razaoSocial}" rendered="{!if(child.empresaTrab!=null, true, false)}" />
+                    <apex:column headervalue="CNPJ" value="{!child.empresaTrab.cnpj}" rendered="{!if(child.empresaTrab!=null, true, false)}"/>
+                </apex:pageBlockTable>
+                <apex:pageBlockSection columns="1">
+                    <apex:pageBlockTable value="{!cli.Pedido}"
+                                         var="arPedido" id="Pedido" >
+                        <apex:column headerValue="Selecione o Pedido">
+                            <apex:inputCheckbox value="{!arPedido.Selected}"/>
+                        </apex:column>
+                        <apex:column headervalue="N° Pedido" value="{!arPedido.id}" />
+                        <apex:column >
+                            <apex:pageBlockTable value="{!arPedido.itens}" var="arItens" id="Item" >
+                                <apex:column headerValue="Selecione o produto">
+                                    <apex:inputCheckbox value="{!arItens.Selected}"/>
+                                </apex:column>
+                                <apex:column headervalue="N° Serie produto" value="{!arItens.numeroSerieProduto}" />
+                                <apex:column headervalue="Produto" value="{!arItens.Itemproduto.descricao}" />
+                                <apex:column headervalue="Pedido Gemco" value="{!arItens.pedidoGemcoItem.Id}" />
+                                <apex:column headerValue="Quantidade" value="{!arItens.quantidadeSolicitada}" />
+                            </apex:pageBlockTable>  
+                        </apex:column>
+                    </apex:pageBlockTable>
+                    
+                    <!--<apex:repeat value="{!cli.Pedido}" var="arPedido">
+<apex:outputText >N° Pedido: {!arPedido.numeroPedidoControle}</apex:outputText>
+<apex:repeat value="{!arPedido.itens}" var="arItens">
+<apex:outputText >N° Serie produto: {!arItens.numeroSerieProduto}</apex:outputText>
+<apex:outputText >Status SLIP: {!arItens.StatusSlip}</apex:outputText>
+<apex:outputText >Produto: {!arItens.Itemproduto.descricao}</apex:outputText>
+<apex:outputText >Pedido Gemco: {!arItens.pedidoGemcoItem.id}</apex:outputText>
+</apex:repeat>
+</apex:repeat>-->
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+            <apex:pageblock id="pbCase" rendered="{!if(MostrarTab>0,true,false)}">
+                <apex:pageblockbuttons >
+                </apex:pageblockbuttons>
+                <apex:pageblocksection title="Criação de Caso" columns="2" id="pbsCaso" >
+                    Classificação
+                    <apex:selectlist id="tpNivel1"
+                                     required="true" value="{!Nivel_1}" size="1" title="Nivel 1" onchange="updateNivel_2();">
+                        <apex:selectoptions value="{!DDLNivel_1}"></apex:selectoptions>
+                    </apex:selectlist>
+                    Motivo do Contato
+                    <apex:selectlist id="tpNivel2"
+                                     required="false" value="{!Nivel_2}" size="1" title="Nivel 2">
+                        <apex:selectoptions value="{!Nivel_2_Novo}"></apex:selectoptions>
+                    </apex:selectlist>
+                    <apex:inputHidden value="{!case.Origin}" id="theHiddenInput"/>
+                </apex:pageblocksection>
+            </apex:pageblock>
+            <apex:commandbutton action="{!CriarCaso}"
+                                id="btnCriarCaso" value="{!if(Case.Id!=null,'Atualizar Caso','Criar Caso')}" rendered="{!if(MostrarBotaoNext>0,true,false)}" style="text-align:right;position:right"/>
+        </div>
+    </apex:form>
+    <script type="text/javascript">
+    function valida() {
+        var verd = false;
+        var msg = '';
+        
+        if (document.getElementById('{!$Component.frmPost.tpChave}').value == '0') {
+            msg += 'Informe o tipo de chave\n';
+        }
+        if (document.getElementById('{!$Component.frmPost.txtValor}').value == '') {
+            msg += 'Informe o valor da chave de consulta\n';
+        }
+        
+        if (msg != '') {
+            alert(msg);
+            document.getElementById('loading').style.display='none';
+            document.getElementById('Principal').style.display='block';
+            verd = false;
+        }
+        else {
+            document.getElementById('loading').style.display='block';
+            document.getElementById('Principal').style.display='none';
+            verd = true;
+        }
+        
+        return verd;
+    }
+    </script>
+</apex:page>

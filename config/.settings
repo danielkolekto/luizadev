@@ -1,0 +1,18 @@
+{
+    "projectName": "MAGAZINE LUIZADEV",
+    "username": "daniel@kolekto.com.br.magazine.luizadev",
+    "id": "04f13ab0-366e-11e7-b1d2-099713dc7f76",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://cs62.salesforce.com",
+    "workspace": "C:\\Users\\danid\\OneDrive\\Documentos\\Workspace",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "CustomObject",
+        "StaticResource"
+    ]
+}
